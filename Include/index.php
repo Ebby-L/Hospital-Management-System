@@ -1,6 +1,6 @@
 <?php
 session_start();
-include("header.php");
+include('header.php');
 ?>
 
 <!DOCTYPE html>
@@ -8,9 +8,10 @@ include("header.php");
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HMS Home page</title>
+    <title>HMS Home page nnnnnn</title>
 </head>
-<body>
+<body style="background-image:url(imgs/hospic.jpg);">
+
 
 
 
@@ -25,7 +26,7 @@ include("header.php");
         </div>
 
         <div class="col-md-4 mx-1 shadow">
-            <img src="../imgs/patient.jpg" style="width:100%;">
+            <img src="./imgs/patient.jpg" style="width:100%;">
             <h5 class="text-center">Create account so we can take good care of you. </h5>
             <a href="#">
                 <button class="btn btn-success my-3" style="margin-left: 30%;">Create account!</button>
@@ -33,7 +34,7 @@ include("header.php");
         </div>
 
         <div class="col-md-3 mx-1 shadow">
-            <img src="../imgs/mr.jfif" style="width:100%;">
+            <img src="./imgs/mr.jfif" style="width:100%;">
             <h5 class="text-center">We are looking for doctors </h5>
             <a href="adminlogin.php"> <!-- Add the link to adminlogin.php here -->
                 <button class="btn btn-success my-3" style="margin-left: 30%;">Admin Login</button>

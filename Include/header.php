@@ -14,7 +14,7 @@
          <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
 	<script type="text/javascript"></script>
 </head>
-<body style="background-image:url(imgs/hospic.jpg);">
+
 	<nav class="navbar navbar-expand-bg navbar-info bg-info">
 		<h5 class="text-white">Hospital Management System</h5>
 		<div class="mr-auto"></div>
@@ -28,22 +28,20 @@
                 '
 			<li class="nav-item"><a href="#"class="nav-link text-white">'.$user.'</a></li>
 			
-            <li class="nav-item"><a href="logout" class="nav-link text-white">logout</a></li>
+            <li class="nav-item"><a href="logout.php" class="nav-link text-white">logout</a></li>
 
                 ';   
                 } 
              else
              {
 
-        
-
             echo
             '
 			<li class="nav-item"><a href="adminlogin.php" class="nav-link text-white">Admin</a></li>
 
-			<li class="nav-item"><a href="#"class="nav-link text-white">Doctor</a></li>
+			<li class="nav-item"><a href="adminlogin.php"class="nav-link text-white">Doctor</a></li>
 			
-            <li class="nav-item"><a href="#" class="nav-link text-white">Patient </a></li>';
+            <li class="nav-item"><a href="adminlogin.php" class="nav-link text-white">Patient </a></li>';
              }
                      
             ?>

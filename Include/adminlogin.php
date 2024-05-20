@@ -23,7 +23,7 @@ if (isset($_POST['login'])) {
         $user = mysqli_fetch_assoc($result);
 
         if ($user && $user['pass']) {
-            $_SESSION['admin'] = $username;
+            $_SESSION['admin'] = $user;
             header("Location:admin/index.php");
             exit();
         } else {
@@ -43,7 +43,7 @@ if (isset($_POST['login'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Admin Login Page</title>
 </head>
-<body>
+<body style="background-image:url(imgs/hospic.jpg);">
     <?php include("header.php"); ?>
 
     <div style="margin-top:20px;"></div>       
